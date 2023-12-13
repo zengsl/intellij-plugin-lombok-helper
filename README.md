@@ -4,6 +4,13 @@
 
 Take a quick look at the compilation file
 
+When I use lombok, I often want to take a look at the class file of the source code, but I don't want to find the directory of the class in the IDE.
+
+So I wrote this plugin to help me.
+
+## Usage
+
+
 ![1](./docs/images/img.png)
 
 ## Install
