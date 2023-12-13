@@ -21,7 +21,7 @@ Execute the plugin `buildPlugin` which provided by IntelliJ in Gradle, and you c
 
 ## Todo List
 
-- [ ] 点击查看class文件时等待编译文件生成之后再进行展示。 等待PromiseResult目前遇到问题
+- [ ] 点击查看class文件时等待编译文件生成之后再进行展示。 等待PromiseResult目前遇到问题,现在点击show class file之后要等编译完成之后再点击一次。
 - [ ] 点击查看class文件时关闭之前的窗口或者自定义展示窗口？
 - [ ] 如果不存在class文件则自动生成——能否优化？能不能直接拿到class虚拟文件？
 - [ ] ~~判断是否使用lombok注解~~
