@@ -44,7 +44,7 @@ class LombokCodeVisionProvider : JavaCodeVisionProviderBase() {
 
     override fun computeLenses(editor: Editor, psiFile: PsiFile): List<Pair<TextRange, CodeVisionEntry>> {
         // we want to let this provider work only in tests dedicated for code vision, otherwise they harm performance
-        if (ApplicationManager.getApplication().isUnitTestMode && !CodeVisionHost.isCodeLensTest(editor)) return emptyList()
+        if (ApplicationManager.getApplication().isUnitTestMode) return emptyList()
 
 
         val lenses = ArrayList<Pair<TextRange, CodeVisionEntry>>()
